@@ -1,0 +1,88 @@
+.hero-container{
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: "Oswald";
+    width: 450px;
+  
+
+}
+
+.hero-container h4{
+    background-color: white;
+    color: rgb(216 147 20);
+    font-size: 33px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    height: 45px;
+    margin: 20px 0 40px;
+}
+
+
+
+
+
+.form-group input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(255 165 0 / 44%);
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 40px;
+    width: 95.3%;
+    padding: 0 0 10px
+}
+
+.form-group input::placeholder{
+    color: white;
+    font-size: 20px;
+   
+}
+
+#login-button{
+  background-color: orange;
+  color: rgb(245, 242, 238);
+  font-size: 33px;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  height: 60px;
+  margin: 20px 0 40px;
+  width: 100.7%;
+  cursor: pointer;
+}
+
+#login-button a{
+    text-decoration: none;
+    color: rgb(49 39 39);
+}
+
+.hero-container p{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 0px;
+}
+
+#sign-up{
+    color: orange;
+}
+.login  p{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.social-login{
+    margin: 0 60px;
+}
+
+
+
+.social-login img {
+    width: 50px;
+    margin-right:10px ;
+}
