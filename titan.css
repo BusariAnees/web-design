@@ -1,0 +1,145 @@
+body{
+  margin: 0px;
+  font-family: "Arial";
+  background-image: url(images/pexels-francesco-ungaro-1525041.jpg);
+  background-size: cover;
+  height: 1500px;
+}
+
+
+.top-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  top: 0;
+  left: 0
+}
+
+.logo{
+  font-size: 2.5rem;
+  color: orange;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.nav-links a{
+  margin-left: 200px;
+  color: rgb(60 44 114);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.nav-links a:hover{
+  text-decoration: underline;
+}
+
+.search-container{
+ display: flex;
+ width: 400px;
+ height: 50px;
+}
+.search-input {
+  padding: 10px;
+  border: 1px solid orange;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  width: 70%;
+  background: transparent;
+  box-sizing: border-box;
+  box-shadow:rgb(0, 0, 0) 1px 1px 2px;
+}
+
+#special-link {
+  margin-left:200px ;
+  margin-right: 300px;
+}
+
+.search-input::placeholder{
+  font-size: 17px;
+}
+
+
+.search-button{
+  padding: 5px 10px;
+  border: none;
+  color: rgba(255, 255, 255, 0.881);
+  background-color: orange;
+  border-radius:0 4px 4px 0;
+  cursor: pointer;
+  width: 30%;
+  font-size: 18px;
+  box-shadow:rgb(0, 0, 0) 1px 1px 2px;
+}
+
+.search-button a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.946);
+}
+
+
+.search-button:hover{
+  background-color:rgb(164, 111, 13);
+}
+
+#hero-content { 
+  margin: 20rem 10rem 0 ;
+  top: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero-content ul{
+  font-family: "Oswald";
+  font-size: 20px;
+  margin: 0px;
+  padding-inline-start: 0px;
+}
+
+#hero-content h1{
+  color: rgba(255, 255, 255, 0.884);
+  font-size: 100px;
+  margin: 0px;
+}
+
+#hero-content h2 {
+  color:orange;
+  font-size:100px;
+  margin: 0px;
+}
+
+#hero-content h3 {
+  color: rgba(255, 255, 255, 0.946);
+  font-size:100px;
+  margin: 0px;
+}
+
+#words-design p{
+  font-size: 37px;
+  color: rgb(136 237 225);
+}
+
+
+.join-us  {
+  background-color: orange;
+  padding: 2px;
+  border-radius: 10px;
+  padding: 2px;
+  width: 13%;
+  height: 55px;
+  font-size: 22px;
+  cursor: pointer;
+
+ 
+}
+
+.join-us a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.946);
+}
+
+.join-us:hover{
+  background-color: rgb(164, 111, 13);
+}
