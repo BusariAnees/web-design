@@ -9,4 +9,4 @@ This is a simple, elegant front page for a website featuring a beautifully desig
 - Simple, easy-to-navigate user interface
 
 ## Screenshots
-![Front Page Screenshot](images/screenshot.png.png)
+![Front Page Screenshot](images/screenshot.png)
